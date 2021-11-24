@@ -1,0 +1,38 @@
+ @import './assets/scss/normalize.scss';
+ @import './assets/scss/colors.scss';
+
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow","Arial", serif;
+  line-height: 1.5;
+  background-color: $main-color;
+  color: #fff;
+}
+
+body > div {
+  height: 100%;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.app {
+  display: flex;
+  &__content {
+    width: 100%;
+  }
+}
+
