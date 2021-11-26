@@ -9,7 +9,6 @@ import { Content } from '../../context//orderContext';
 
 function Home () {
   const {orderFoods, setOrderFoods} = useContext(Content);
-  console.log(orderFoods);
   return (
     <div className='home'>
     <div className="home__content">
