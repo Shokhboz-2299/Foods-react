@@ -8,7 +8,7 @@ import { useContext } from 'react';
 import { Content } from '../../context//orderContext';
 
 function Home () {
-  const {orderFoods, setOrderFoods} = useContext(Content);
+  const {orderFoods,} = useContext(Content);
   return (
     <div className='home'>
     <div className="home__content">

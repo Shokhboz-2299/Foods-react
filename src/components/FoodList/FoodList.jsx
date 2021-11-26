@@ -10,7 +10,6 @@ import { useParams } from 'react-router-dom';
 function FoodList() {
   const { foodtype } = useParams();
   const {orderFoods, setOrderFoods} = useContext(Content);
-  console.log(foods);
   return (
     <>
       {foods.length > 0 && <ul className="food-list">
