@@ -1,7 +1,6 @@
-@import '../../assets/scss/colors.scss';
+@import "../../assets/scss/colors.scss";
 
 .home-top {
-
   &__top {
     margin-bottom: 24px;
     display: flex;
@@ -80,5 +79,31 @@
     &::before {
       display: block;
     }
+  }
+}
+
+.chooseDishes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  align-items: center;
+  h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  select {
+    display: inline-block;
+    padding: 14px;
+    background-color: #1f1d2b;
+    border: 1px solid #393c49;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #ffffff;
+    margin: 0px 10px;
   }
 }

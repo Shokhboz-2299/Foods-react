@@ -1,16 +1,15 @@
 import { Route, Switch } from 'react-router';
+import FoodList from '../FoodList/FoodList';
 import './HomeContent.scss';
+
+
 
 function HomeContent () {
   return (
     <div>
       <Switch>
-        <Route path="/cold-dishes">Cold Dishes</Route>
-        <Route path="/soup">Soup</Route>
-        <Route path="/grill">Grill</Route>
-        <Route path="/appetizer">Appetizer</Route>
-        <Route path="/dessert">Dessert</Route>
-        <Route path="/">Hot Dishes</Route>
+        <Route path="/:foodtype" component={FoodList}/>
+        <Route path="/" component={FoodList}/>
       </Switch>
       </div>
   )

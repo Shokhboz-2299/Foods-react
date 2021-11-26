@@ -34,7 +34,13 @@ function HomeTop () {
           <NavLink className="link-list__link" activeClassName="link-list__link-active" to ="/dessert">Dessert</NavLink>
         </li>
       </ul>
-      <div></div>
+      <div className="chooseDishes">
+        <h4>Choose Dishes</h4>
+        <select>
+          <option value="dineIn">Dine In</option>
+          <option value="dineOut">Dine In</option>
+        </select>
+      </div>
     </div>
   )
 }
